@@ -414,6 +414,8 @@ for i in range(0,len(degdg)):
 
 ##for i in range(0,len(n)):
 ##    print a[i] ,"--" ,n[i]
+for i in range(0,len(n[0])):
+    n[0][i]=float(n[0][i])*-1
 print "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&6"
 print "--------",cd
 for i in range(0,len(n)):
@@ -940,10 +942,10 @@ print "cozum = " , nb[0][len(nb[0])-1]
 for i in range(1,len(b)):
     if len(b[i].split("W"))>=2:
         for k in range(0,len(degdg)):
-            for s in range(0,len(degdeg[0])):
+            for s in range(0,len(degdg[0])):
                 if degdg[k][1]==b[i]:
                     
-                    print degdeg[k][0] , " = ", float(nb[i][len(nb[0])-1]) + float(degdg[k][2])
+                    print degdg[k][0] , " = ", float(nb[i][len(nb[0])-1]) + float(degdg[k][2])
     else:
         
         print b[i], " = ", nb[i][len(nb[0])-1]
