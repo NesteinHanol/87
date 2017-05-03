@@ -242,19 +242,6 @@ for i in range(0,len(a)):
         cd.append("R"+str(degsayiR))
         yenimindenklemi.append("R"+str(degsayiR))
         degsayiR=degsayiR+1
-
-##    if deger=="G":
-##        deger2=rows[i][0]
-##        deger3=a.index(deger2)
-##        for t in range(0,len(asli)):
-##            if t==deger3:
-##                asli[deger3].append("1")
-##            else:
-##                asli[t].append("0")       
-##    
-##        cc.append("R"+str(degsayi))
-##        yenimindenklemi.append("R"+str(degsayi))
-##        degsayi=degsayi+1
         
 for i in range(0,len(yenminbel)):
     yenminbel[i].append(yenimindenklemi[i])
